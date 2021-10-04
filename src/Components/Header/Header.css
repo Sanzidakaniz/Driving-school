@@ -1,0 +1,17 @@
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .items:hover {
+    color: rgb(5, 45, 221);
+  }
+  .header-container{
+    background-color: black;
+    margin-top: 0;
+  }
