@@ -15,7 +15,7 @@ const Courses = () => {
     },[])
     return (
         <div className="">
-  
+  <Header></Header>
         <Row xs={1} md={2} className="g-4">
         {
             courses.map(course=><Course
@@ -23,7 +23,7 @@ const Courses = () => {
              course={course}></Course>)
         }
       </Row>
-     
+     <Footer></Footer>
        </div>
     );
 };

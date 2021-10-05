@@ -1,10 +1,10 @@
 import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
-const Course = (props) => {
-    const {image,name,price}=props.course;
+const Sites = (props) => {
+    const {image,name,price}=props.site;
     return (
-     <div>
+        <div>
         <Col mt-3>
        <Card>
          <Card.Img variant="top h-50" src={image} />
@@ -20,4 +20,4 @@ const Course = (props) => {
     );
 };
 
-export default Course;
+export default Sites;
