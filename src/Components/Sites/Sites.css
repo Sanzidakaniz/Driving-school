@@ -1,1 +1,8 @@
-
+button{
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 10px;
+    color: snow;
+    font-weight: 500;
+    border: 5px solid skyblue;
+}

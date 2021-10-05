@@ -9,3 +9,8 @@ h5{
 h1{
     color: blue;
 }
+article{
+    font-weight: 600;
+  margin-left:100px;
+  margin-right: 100px;
+}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Row } from 'react-bootstrap';
 import Sites from '../Sites/Sites';
-import './Display.css'
+import './Display.css';
 
 const Display = () => {
     const [sites,setSites]=useState([]);
@@ -12,8 +12,9 @@ const Display = () => {
     },[])
     return (
         <div>
-            <h4>Our Courses</h4>
-               <Row xs={1} md={2} className="g-4 my-4">
+            <h1>Our Courses</h1>
+           
+               <Row xs={1} md={2} className="g-4 mb-4">
         {
             sites.map(site=><Sites
                 key={site.id}

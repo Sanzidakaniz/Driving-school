@@ -1,6 +1,11 @@
 .footer{
+    margin-top: 20px;
     background-color:gray;
     color:white;
     text-align: center;
-    padding: 60px;
+    padding: 20px;
+}
+h2{
+   
+    font-weight: 700;
 }

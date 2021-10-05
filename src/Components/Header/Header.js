@@ -7,7 +7,6 @@ const Header = () => {
       <div className="header-container">
       <div className="container">
         <div className="Row">
-         
           <div className="Col-md-10">
             <div className="head-container ">
               <ul className="d-flex align-items-start justify-content-start">

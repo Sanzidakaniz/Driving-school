@@ -16,7 +16,7 @@ const Courses = () => {
     return (
         <div className="">
   <Header></Header>
-        <Row xs={1} md={2} className="g-4">
+        <Row xs={1} md={2} className="g-4 my-4">
         {
             courses.map(course=><Course
                 key={course.id}
