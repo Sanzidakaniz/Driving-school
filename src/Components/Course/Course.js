@@ -12,7 +12,7 @@ const Course = (props) => {
          <Card.Img variant="top h-50 w-100" src={image} />
          <Card.Body>
           <Card.Title >Course Name: <span>{name}</span></Card.Title>
-         <Card.Title>Price: <span>${price}</span>
+         <Card.Title>Course Fee: <span>${price}</span>
            </Card.Title>
            <Link to="/">
            <button>Enroll Now</button></Link>
