@@ -9,7 +9,7 @@ Technologies used in this Project mentioned below:
 2. CSS3
 3. React JS
 4. Netlify
-5.react Bootstrap
+5.React Bootstrap
 6.React Router
 
 ## Features
